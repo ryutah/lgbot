@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+  # アクセスするのにGCPのAdmin権限が必要なハンドラー
+  # 基本的に、Cron JobやTaskqueuのハンドラーは、不正にアクセスされるのを防止するためにこの設定を行う
+  - url: /admin/.*
+    login: admin
+    script: main.app
+
+  - url: /.*
+    script: main.app
