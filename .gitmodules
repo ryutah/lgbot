@@ -7,3 +7,6 @@
 [submodule "lgbot-twitterbot"]
 	path = lgbot-twitterbot
 	url = git@github.com:ryutah/lgbot-twitterbot.git
+[submodule "lgbot-analyze"]
+	path = lgbot-analyze
+	url = git@github.com:ryutah/lgbot-analyze.git
