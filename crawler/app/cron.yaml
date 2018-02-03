@@ -1,5 +1,0 @@
-cron:
-- description: Sample cron
-  url: /admin/cron
-  schedule: every day 09:00 # 毎日9時に実行
-  timezone: Asia/Tokyo
