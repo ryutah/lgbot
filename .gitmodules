@@ -1,0 +1,3 @@
+[submodule "lgbot-judge"]
+	path = lgbot-judge
+	url = git@github.com:ryutah/lgbot-judge.git
