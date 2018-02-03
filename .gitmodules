@@ -1,3 +1,6 @@
 [submodule "lgbot-judge"]
 	path = lgbot-judge
 	url = git@github.com:ryutah/lgbot-judge.git
+[submodule "lgbot-crawler"]
+	path = lgbot-crawler
+	url = git@github.com:ryutah/lgbot-crawler.git
